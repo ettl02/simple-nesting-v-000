@@ -29,12 +29,12 @@ def alan_kay_is_known_for
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "GUI",
+          :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C" , "Assembly"]
+          :languages => ["C"]
         }
      }
 programmer_hash[:alan_kay][:known_for]
@@ -96,7 +96,7 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :known_for => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
@@ -126,5 +126,6 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-
+		 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+		      programmer_hash
 end
